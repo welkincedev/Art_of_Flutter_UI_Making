@@ -1,4 +1,5 @@
 import 'package:firstsample/textformfeild.dart';
+import 'package:firstsample/Date&%20time%20picker.dart';
 import 'package:firstsample/widgetss/animatedText.dart';
 import 'package:firstsample/widgetss/listVieW/cardAssignment.dart';
 import 'package:firstsample/widgetss/listVieW/listView.dart';
@@ -17,4 +18,4 @@ import 'Splashpage.dart';
 void main() =>
     runApp(MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: RegFormPage()));
+        home: DateTimeSlider()));
