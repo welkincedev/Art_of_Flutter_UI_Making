@@ -1,14 +1,10 @@
-import 'package:firstsample/Login%20Page,Register%20Page/registerpage.dart';
 import 'package:flutter/material.dart';
 
-class Loginpage extends StatefulWidget {
-  const Loginpage({super.key});
 
-  @override
-  State<Loginpage> createState() => _LoginpageState();
-}
+class FadePage extends StatelessWidget {
+  final String title;
+  const FadePage({super.key, required this.title});
 
-class _LoginpageState extends State<Loginpage> {
   @override
   Widget build(BuildContext context) {
     var width = MediaQuery.of(context).size.width;
@@ -83,24 +79,22 @@ class _LoginpageState extends State<Loginpage> {
 
                   const SizedBox(height: 20),
 
-                  TextButton(
-                    onPressed: () {
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => Registerpage(),
-                        ),
-                      );
-                    },
-                    child: const Text(
-                      "Create Account",
-                      style: TextStyle(
-                        color: Colors.deepPurple,
-                        fontSize: 16,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                  ),
+                  // TextButton(
+                  //   onPressed: () {
+                  //     Navigator.push(
+                  //       context,
+                  //
+                  //     );
+                  //   },
+                  //   child: const Text(
+                  //     "Create Account",
+                  //     style: TextStyle(
+                  //       color: Colors.deepPurple,
+                  //       fontSize: 16,
+                  //       fontWeight: FontWeight.bold,
+                  //     ),
+                  //   ),
+                  // ),
                 ],
               ),
             ),

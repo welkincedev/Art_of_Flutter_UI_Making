@@ -28,8 +28,9 @@ class _TabPageState extends State<TabPage> {
             ),
             tabs: [
               Tab(icon: Icon(Icons.list), text: ("List")),
-              Tab(icon: Icon(Icons.grid_view_rounded), text: ("Grid")),
-              Tab(icon: Icon(Icons.draw), text: ("Draw")),
+              Tab(icon: Icon(Icons.favorite), text: ("Saved")),
+              Tab(icon: Icon(Icons.calendar_today), text: ("Booking")),
+              Tab(icon: Icon(Icons.person), text: ("Profile")),
             ],
           ),
         ),

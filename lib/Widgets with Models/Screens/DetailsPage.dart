@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import '../../widgetss/Widgets2 using Models/model/fruitsmodel.dart';
+import '../Model/fruitsmodel.dart';
 
 class Detailspage extends StatelessWidget {
-  const Detailspage({super.key});
+  const Detailspage({super.key, required String title});
 
   @override
   Widget build(BuildContext context) {

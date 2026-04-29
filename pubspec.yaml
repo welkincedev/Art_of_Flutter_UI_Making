@@ -40,6 +40,7 @@ dependencies:
   awesome_dialog: ^3.3.0
   carousel_slider: ^5.1.2
   carousel_custom_slider: ^0.1.0
+  lottie: ^3.3.3
 
 
 
@@ -66,7 +67,8 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-    - assets/
+    - assets/animation/
+    - assets/scshts/
 
   # To add assets to your application, add an assets section, like this:
 

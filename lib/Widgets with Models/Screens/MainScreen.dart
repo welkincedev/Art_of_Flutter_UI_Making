@@ -11,7 +11,6 @@ class MyApp extends StatelessWidget {
       initialRoute: "/",
       routes: {   // each screens
         '/': (context) => HomePage(),
-        '/details': (context) => Detailspage(),
       }
     );
   }

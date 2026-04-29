@@ -1,6 +1,6 @@
 import 'dart:async';
-import '../Login Page,Register Page/loginpage.dart';
-
+import 'Loginpage.dart';
+import 'lib/widgetss/Loginpage.dart';
 import 'package:flutter/material.dart';
 
 class Splashscreen extends StatefulWidget {

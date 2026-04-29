@@ -3,16 +3,14 @@ class Fruit {
   final String name;
   final String color;
   final String image;
-  final double? rating;
-  final int? price;
+
+  var price;
 
   Fruit({
     required this.id,
     required this.name,
     required this.color,
     required this.image,
-    this.rating,
-    required this.price
-
+    required this.price,
   });
 }

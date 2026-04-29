@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:firstsample/Widgets%20with%20Models/Model/fruitsmodel.dart' hide Fruit;
 
-import '../../widgetss/Widgets2 using Models/model/fruitsmodel.dart';
+import '../Model/fruitsmodel.dart';
 
 class Home extends StatelessWidget {
   final List<Fruit> fruits = [
